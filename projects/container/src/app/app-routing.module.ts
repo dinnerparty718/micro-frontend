@@ -9,7 +9,7 @@ const routes: Routes = [{
 },
 {
   path: 'flights',
-  loadChildren: () => import('mfe1/Module').then(m => m.FlightsModule)
+  loadChildren: () => import('dashboard/Module').then(m => m.FlightsModule)
 },
 ];
 
