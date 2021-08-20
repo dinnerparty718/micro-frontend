@@ -32,7 +32,7 @@ module.exports = {
 
       // For hosts (please adjust)
       remotes: {
-        dashboard: "dashboard@http://localhost:4201/remoteEntry.js",
+        // dashboard: "dashboard@http://localhost:4201/remoteEntry.js",
       },
 
       shared: share({
